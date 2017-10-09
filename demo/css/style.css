@@ -51,7 +51,7 @@ h1{
 h2{
 	text-align: center;
 	margin-bottom: 30px;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 p{
 	font-size: 16px;
@@ -80,11 +80,13 @@ p{
 }
 .sectiona{
 	width: 100%;
-	height:217px;
+	height:187px;
 	background-color: white;
+	padding-top: 30px;
 }
 .sectionb{
 	width: 100%;
-	height:217px;
+	height:187px;
+	padding-top: 30px;
 	background-color: #333333;
 }
