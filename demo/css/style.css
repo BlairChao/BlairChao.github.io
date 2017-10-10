@@ -80,13 +80,29 @@ p{
 }
 .sectiona{
 	width: 100%;
-	height:187px;
+	height:157px;
 	background-color: white;
-	padding-top: 30px;
+	padding: 30px;
 }
 .sectionb{
 	width: 100%;
-	height:187px;
-	padding-top: 30px;
+	height:157px;
+	padding: 30px;
 	background-color: #333333;
 }
+@media only screen and (max-width: 1550px) {
+		.w-content{
+			min-width: 400px;
+			height: 478.5px;
+		}
+		.s-content{
+			min-width: 400px;
+			height: 317px;
+		}
+		.sectiona{	
+			height:287px;
+		}
+		.sectionb{
+			height:287px;
+		}
+	}
